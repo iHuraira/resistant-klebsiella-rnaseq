@@ -1,0 +1,7 @@
+rule test_env:
+    output: "test.txt"
+    conda: "envs/sra_tools.yaml"
+    shell:
+        """
+        echo 'test OK' > {output}
+        """
