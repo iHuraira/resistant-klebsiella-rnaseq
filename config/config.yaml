@@ -1,2 +1,4 @@
 sra_path : "resources/sra_files/sra_list.txt"
 adapters_path : "resources/adapters/Tru-Seq3-PE.fa"
+sortmerna_index_db : "resources/indexed_db"
+ref_database_rRNA : "resources/rRNA_Seq/rRNA_sequences.fasta"
