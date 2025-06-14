@@ -1,0 +1,18 @@
+name: deseq2_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4.1
+  - bioconductor-deseq2=1.34
+  - bioconductor-tximport
+  - r-readr
+  - r-dplyr
+  - r-ggplot2
+  - r-pheatmap
+  - r-rcolorbrewer
+  - r-tibble
+  - r-openxlsx
+  - r-rcolorbrewer
+  - r-stringr

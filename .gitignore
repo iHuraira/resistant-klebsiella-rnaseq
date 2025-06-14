@@ -194,4 +194,12 @@ cython_debug/
 .cursorindexingignore
 
 .snakemake
-results/
+
+# Ignore everything in results/
+results/*
+
+# Except the deseq2 folder and its contents
+!results/deseq2/
+!results/deseq2/**
+
+resources
