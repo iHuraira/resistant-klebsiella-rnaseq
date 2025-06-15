@@ -34,13 +34,9 @@ Implemented in **Snakemake** (`Snakefile`) with modular rules:
 | 8 | `count_reads` (**featureCounts**) | Gene-level read counts |
 | 9 | `differential_expression` (**DESeq2**) | Identify DEGs (|log₂FC| ≥ 1, FDR ≤ 0.001) |
 | 10 | `interproscan_annotations` (**InterProScan 5**) | Assign GO terms |
-| 11 | `kegganalysis` (**KOBAS 3**) | KEGG pathway mapping & enrichment |
-| 12 | `go_kegg_enrichment` (**clusterProfiler**) | GO/KEGG over-representation tests |
-| 13 | `variant_calling` (**GATK HaplotypeCaller → CombineGVCFs → GenotypeGVCFs**, filtered with MQ < 40, QD < 2, FS > 30, DP < 10, QUAL < 20) |
-| 14 | `visualisation` (R ggplot2, pheatmap) | PCA, volcano plots, heatmaps |
 
 
-## 8. References
+## 3. References
 
 1. Liu Y **et al.** (2025) *IET Syst Biol* 19(1): e12112.
 2. Dobin A **et al.** 2013 STAR: ultrafast RNA-seq aligner. *Bioinformatics*.
