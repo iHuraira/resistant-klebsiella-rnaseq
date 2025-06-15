@@ -52,3 +52,59 @@ This Snakemake pipeline automates the analysis of RNA-Seq data from *Klebsiella 
     Functional enrichment analysis was conducted using **InterProScan**, although it is not part of the automated pipeline.
 
 ---
+
+Glad you’re happy with it! Here's a polished and cohesive **Results** section for your README, combining the PCA and volcano plot analyses into a single narrative:
+
+---
+
+## 📊 Results
+
+To explore the transcriptional differences associated with antibiotic resistance in *Klebsiella pneumoniae*, we analyzed RNA-Seq data from the multidrug-resistant strain **KPN16** and the reference strain **ATCC13883**. The analysis revealed distinct gene expression profiles between the two conditions.
+
+### Principal Component Analysis (PCA)
+
+PCA was performed on normalized gene expression counts to visualize sample clustering and variance structure. The first two principal components explained **71%** and **11%** of the total variance, respectively.
+
+![PCA Plot](./78710163-ddc7-4704-8c16-1dc061b8b5c5.png)
+
+The PCA plot shows clear separation between the two groups, with tight clustering of biological replicates. This indicates strong and consistent transcriptional differences between the resistant and non-resistant strains.
+
+---
+
+### Differential Gene Expression Analysis
+
+Using **DESeq2**, we identified differentially expressed genes (DEGs) between KPN16 and ATCC13883. Genes with an adjusted *p*-value < 0.05 and |log₂ fold change| > 1 were considered significant.
+
+![Volcano Plot](./08a2dbbf-3a60-4fcb-869f-185a1b0f6d87.png)
+
+The volcano plot illustrates these DEGs, annotated with selected **Gene Ontology (GO)** terms. Key findings include:
+
+* **Upregulated in KPN16**:
+
+  * Genes related to **oxidoreductase activity**, **membrane structure**, and **6-phosphofructokinase activity**, suggesting enhanced metabolic and structural adaptation mechanisms.
+* **Downregulated in KPN16**:
+
+  * Genes associated with **RNA degradation**, **L-valine transport**, and **signal transduction**, indicating a potential shift away from nutrient transport and regulatory processes.
+
+These patterns support the hypothesis that **KPN16 compensates for antibiotic stress through metabolic rewiring and membrane-associated resistance mechanisms**, consistent with prior biological interpretations.
+
+---
+
+## 📚 Citations
+
+### 📄 Dataset Source
+
+* Liu Y, Niu Z, Wu R, Yang D, et al. (2025). *Transcriptomic analysis reveals pathways underlying the multi-antibiotic resistance of Klebsiella pneumoniae*. **IET Systems Biology**, 19(1)\:e12112. [PMID: 39688881](https://pubmed.ncbi.nlm.nih.gov/39688881)
+  GEO Accession: [GSE229867](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE229867)
+
+### 🧪 Tools and Software
+
+* **Snakemake**: Mölder F, et al. (2021). *Sustainable data analysis with Snakemake*. **F1000Research**, 10:33. [doi:10.12688/f1000research.29032.2](https://doi.org/10.12688/f1000research.29032.2)
+* **FastQC**: Andrews S. (2010). *FastQC: A Quality Control tool for High Throughput Sequence Data*. [https://www.bioinformatics.babraham.ac.uk/projects/fastqc/](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+* **Trimmomatic**: Bolger AM, Lohse M, Usadel B. (2014). *Trimmomatic: a flexible trimmer for Illumina sequence data*. **Bioinformatics**, 30(15):2114–20. [doi:10.1093/bioinformatics/btu170](https://doi.org/10.1093/bioinformatics/btu170)
+* **STAR**: Dobin A, et al. (2013). *STAR: ultrafast universal RNA-seq aligner*. **Bioinformatics**, 29(1):15–21. [doi:10.1093/bioinformatics/bts635](https://doi.org/10.1093/bioinformatics/bts635)
+* **featureCounts**: Liao Y, Smyth GK, Shi W. (2014). *featureCounts: an efficient general-purpose program for assigning sequence reads to genomic features*. **Bioinformatics**, 30(7):923–930. [doi:10.1093/bioinformatics/btt656](https://doi.org/10.1093/bioinformatics/btt656)
+* **DESeq2**: Love MI, Huber W, Anders S. (2014). *Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2*. **Genome Biology**, 15(12):550. [doi:10.1186/s13059-014-0550-8](https://doi.org/10.1186/s13059-014-0550-8)
+* **RSeQC**: Wang L, Wang S, Li W. (2012). *RSeQC: quality control of RNA-seq experiments*. **Bioinformatics**, 28(16):2184–2185. [doi:10.1093/bioinformatics/bts356](https://doi.org/10.1093/bioinformatics/bts356)
+* **BBMap**: Bushnell B. (2014). *BBMap: A Fast, Accurate, Splice-Aware Aligner*. [https://sourceforge.net/projects/bbmap/](https://sourceforge.net/projects/bbmap/)
+* **InterProScan**: Jones P, et al. (2014). *InterProScan 5: genome-scale protein function classification*. **Bioinformatics**, 30(9):1236–1240. [doi:10.1093/bioinformatics/btu031](https://doi.org/10.1093/bioinformatics/btu031)
