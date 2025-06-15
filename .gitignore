@@ -198,8 +198,7 @@ cython_debug/
 # Ignore everything in results/
 results/*
 
-# Except the deseq2 folder and its contents
+# Explicitly keep only the following folders
 !results/deseq2/
-!results/deseq2/**
 
-resources
+resources/star_index/
