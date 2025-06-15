@@ -1,89 +1,89 @@
 gene,log2FoldChange,padj,protein_id,GO_terms,GO_descriptions,significant
-KPHS_t00430,3.88603111108193,8.370563610196379e-11,YP_005224343.1,-,,True
+KPHS_t00430,3.88603111108193,8.370563610196379e-11,YP_005224343.1,,,True
 KPHS_t00410,-8.06050553522698,1.11492952109459e-09,YP_005224341.1,GO:0016491(InterPro),oxidoreductase activity,True
-KPHS_r00060,6.84921603687893,2.68529620637317e-06,,,-,True
+KPHS_r00060,6.84921603687893,2.68529620637317e-06,YP_005224306.1,GO:0016020(InterPro);GO:0015079(InterPro);GO:0071805(InterPro),membrane;potassium ion transmembrane transporter activity;potassium ion transmembrane transport,True
 KPHS_t00750,3.14658541170436,6.39002379726281e-05,YP_005224375.1,GO:0003872(InterPro);GO:0006096(InterPro),6-phosphofructokinase activity;glycolytic process,True
-KPHS_t00830,2.08688978881903,0.0003860435055396,YP_005224383.1,GO:0003676(InterPro);-;GO:0003677(InterPro);GO:0005524(InterPro),nucleic acid binding;DNA binding;ATP binding,True
-KPHS_t00700,1.09422412656425,0.0006928827738084,YP_005224370.1,GO:0030151(InterPro);-;GO:0003824(InterPro);GO:0030170(InterPro),molybdenum ion binding;catalytic activity;pyridoxal phosphate binding,True
-KPHS_t00260,-1.63456144616692,0.0011008204123557,YP_005224326.1,GO:0007165(InterPro);GO:0006355(InterPro);-;GO:0000155(InterPro),signal transduction;regulation of DNA-templated transcription;phosphorelay sensor kinase activity,True
-KPHS_t00290,-0.673663025422171,0.0014550500792585,YP_005224329.1,GO:0003924(InterPro);-;GO:0005525(InterPro),GTPase activity;GTP binding,True
+KPHS_t00830,2.08688978881903,0.0003860435055396,YP_005224383.1,GO:0003676(InterPro);-;GO:0003677(InterPro);GO:0005524(InterPro),nucleic acid binding;unknown;DNA binding;ATP binding,True
+KPHS_t00700,1.09422412656425,0.0006928827738084,YP_005224370.1,GO:0030151(InterPro);-;GO:0003824(InterPro);GO:0030170(InterPro),molybdenum ion binding;unknown;catalytic activity;pyridoxal phosphate binding,True
+KPHS_t00260,-1.63456144616692,0.0011008204123557,YP_005224326.1,GO:0007165(InterPro);GO:0006355(InterPro);-;GO:0000155(InterPro),signal transduction;regulation of DNA-templated transcription;unknown;phosphorelay sensor kinase activity,True
+KPHS_t00290,-0.673663025422171,0.0014550500792585,YP_005224329.1,GO:0003924(InterPro);-;GO:0005525(InterPro),GTPase activity;unknown;GTP binding,True
 KPHS_t00320,-1.04451199887575,0.0014550500792585,YP_005224332.1,GO:0051499(InterPro);GO:0005737(InterPro);GO:0002161(InterPro),D-aminoacyl-tRNA deacylase activity;cytoplasm;aminoacyl-tRNA deacylase activity,True
 KPHS_t00880,0.824127911760396,0.0033272237400794,YP_005224388.1,GO:0006313(InterPro),DNA transposition,True
-KPHS_t00360,1.22858435513695,0.0090687907202154,YP_005224336.1,-,,True
-KPHS_t00510,-3.6928141750693,0.0090687907202154,YP_005224351.1,-,,True
-KPHS_r00030,5.01823659472994,0.0102138425581568,,,-,True
+KPHS_t00360,1.22858435513695,0.0090687907202154,YP_005224336.1,GO:0000287;GO:0004518;GO:0004540;GO:0016787;GO:0046872;GO:0090729;GO:0035821,magnesium ion binding;nuclease activity;RNA nuclease activity;hydrolase activity;metal ion binding;toxin activity;modulation of process of another organism,True
+KPHS_t00510,-3.6928141750693,0.0090687907202154,YP_005224351.1,GO:0016020,membrane,True
+KPHS_r00030,5.01823659472994,0.0102138425581568,YP_005224303.1,GO:0004071(InterPro);GO:0006529(InterPro);GO:0005737(InterPro),aspartate-ammonia ligase activity;asparagine biosynthetic process;cytoplasm,True
 KPHS_t00650,-0.890622363241828,0.0128115908093889,YP_005224365.1,GO:0016301(InterPro);GO:0005975(InterPro),kinase activity;carbohydrate metabolic process,True
 KPHS_t00440,-2.10662256399643,0.0144242234985816,YP_005224344.1,GO:0003872(InterPro);GO:0006096(InterPro),6-phosphofructokinase activity;glycolytic process,True
 KPHS_t00690,1.10167667096629,0.0259408120279706,YP_005224369.1,GO:0004784(InterPro);GO:0006801(InterPro);GO:0046872(InterPro),superoxide dismutase activity;superoxide metabolic process;metal ion binding,True
-KPHS_t00520,-3.84398581036746,0.0294606741774046,YP_005224352.1,-,,True
-KPHS_t00280,3.91754524635051,0.0346061011225112,YP_005224328.1,,-,True
-KPHS_t00710,-0.658236996809595,0.0446146974907871,YP_005224371.1,GO:0016020(InterPro);GO:0007165(InterPro);-;GO:0000155(InterPro),membrane;signal transduction;phosphorelay sensor kinase activity,True
-KPHS_r00200,4.37160608273876,0.0553758573864775,,,-,False
-KPHS_t00310,-0.618281498695365,0.0614663931709828,YP_005224331.1,-,,False
-KPHS_t00530,1.19139687386826,0.0864611549520952,YP_005224353.1,-,,False
+KPHS_t00520,-3.84398581036746,0.0294606741774046,YP_005224352.1,GO:1903785;GO:0005886;GO:0016020,L-valine transmembrane transport;plasma membrane;membrane,True
+KPHS_t00280,3.91754524635051,0.0346061011225112,YP_005224328.1,GO:0016020,membrane,True
+KPHS_t00710,-0.658236996809595,0.0446146974907871,YP_005224371.1,GO:0016020(InterPro);GO:0007165(InterPro);-;GO:0000155(InterPro),membrane;signal transduction;unknown;phosphorelay sensor kinase activity,True
+KPHS_r00200,4.37160608273876,0.0553758573864775,YP_005224320.1,GO:0016746(InterPro),acyltransferase activity,False
+KPHS_t00310,-0.618281498695365,0.0614663931709828,YP_005224331.1,,,False
+KPHS_t00530,1.19139687386826,0.0864611549520952,YP_005224353.1,,,False
 KPHS_t00420,0.951210409553713,0.0969693314984296,YP_005224342.1,GO:0016783(InterPro),sulfurtransferase activity,False
 KPHS_t00570,1.41739316721733,0.0990723535712685,YP_005224357.1,GO:0016857(InterPro),"racemase and epimerase activity, acting on carbohydrates and derivatives",False
 KPHS_t00340,-0.500039689404901,0.11264500724468,YP_005224334.1,GO:0016787(InterPro),hydrolase activity,False
-KPHS_t00540,3.12272385607101,0.153143901189538,YP_005224354.1,GO:0006355(InterPro);-;GO:0003677(InterPro),regulation of DNA-templated transcription;DNA binding,False
-KPHS_t00300,-0.497266990164288,0.163981519903334,YP_005224330.1,-,,False
-KPHS_r00040,3.21318097618448,0.16642619793356,,,-,False
+KPHS_t00540,3.12272385607101,0.153143901189538,YP_005224354.1,GO:0006355(InterPro);-;GO:0003677(InterPro),regulation of DNA-templated transcription;unknown;DNA binding,False
+KPHS_t00300,-0.497266990164288,0.163981519903334,YP_005224330.1,,,False
+KPHS_r00040,3.21318097618448,0.16642619793356,YP_005224304.1,,,False
 KPHS_t00400,-0.388177718713382,0.187685006988398,YP_005224340.1,GO:0043546(InterPro);GO:0016491(InterPro),molybdopterin cofactor binding;oxidoreductase activity,False
-KPHS_t00810,-1.14433013722624,0.187685006988398,YP_005224381.1,GO:0006355(InterPro);-;GO:0003677(InterPro),regulation of DNA-templated transcription;DNA binding,False
+KPHS_t00810,-1.14433013722624,0.187685006988398,YP_005224381.1,GO:0006355(InterPro);-;GO:0003677(InterPro),regulation of DNA-templated transcription;unknown;DNA binding,False
 KPHS_t00250,0.55598314394335,0.21760164745887,YP_005224325.1,GO:0006355(InterPro);GO:0043565(InterPro);GO:0005524(InterPro);GO:0000160(InterPro);GO:0008134(InterPro),regulation of DNA-templated transcription;sequence-specific DNA binding;ATP binding;phosphorelay signal transduction system;transcription factor binding,False
 KPHS_t00780,-1.82050742612263,0.221088471466613,YP_005224378.1,GO:0016887(InterPro);GO:0005524(InterPro),ATP hydrolysis activity;ATP binding,False
-KPHS_t00550,1.44834701696927,0.317402461422295,YP_005224355.1,-,,False
+KPHS_t00550,1.44834701696927,0.317402461422295,YP_005224355.1,,,False
 KPHS_t00640,-0.471146720470893,0.317402461422295,YP_005224364.1,GO:0030145(InterPro);GO:0008740(InterPro);GO:0019299(InterPro),manganese ion binding;L-rhamnose isomerase activity;rhamnose metabolic process,False
-KPHS_r00160,2.00788478319289,0.366208999984718,,,-,False
-KPHS_t00330,-0.433943625084101,0.386012596195661,YP_005224333.1,-;GO:0016747(InterPro),"acyltransferase activity, transferring groups other than amino-acyl groups",False
-KPHS_t00760,1.15343734900517,0.431638533447408,YP_005224376.1,-,,False
-KPHS_t00240,1.9064122016275,0.457490742008444,YP_005224324.1,GO:0051536(InterPro);-;GO:0003824(InterPro),iron-sulfur cluster binding;catalytic activity,False
+KPHS_r00160,2.00788478319289,0.366208999984718,YP_005224316.1,,,False
+KPHS_t00330,-0.433943625084101,0.386012596195661,YP_005224333.1,-;GO:0016747(InterPro),"unknown;acyltransferase activity, transferring groups other than amino-acyl groups",False
+KPHS_t00760,1.15343734900517,0.431638533447408,YP_005224376.1,,,False
+KPHS_t00240,1.9064122016275,0.457490742008444,YP_005224324.1,GO:0051536(InterPro);-;GO:0003824(InterPro),iron-sulfur cluster binding;unknown;catalytic activity,False
 KPHS_t00450,-0.444772459902172,0.499010336573171,YP_005224345.1,GO:0008982(InterPro);GO:0009401(InterPro),protein-N(PI)-phosphohistidine-sugar phosphotransferase activity;phosphoenolpyruvate-dependent sugar phosphotransferase system,False
 KPHS_t00590,-0.293157458544,0.524531228553613,YP_005224359.1,GO:0016020(InterPro);GO:0022857(InterPro);GO:0055085(InterPro),membrane;transmembrane transporter activity;transmembrane transport,False
 KPHS_t00470,-0.344482791617012,0.643679832479497,YP_005224347.1,GO:0016832(InterPro);GO:0008270(InterPro);GO:0005975(InterPro),aldehyde-lyase activity;zinc ion binding;carbohydrate metabolic process,False
 KPHS_t00680,-0.81793939791907,0.689735385107313,YP_005224368.1,GO:0016020(InterPro);GO:0015153(InterPro);GO:0008645(InterPro),membrane;rhamnose transmembrane transporter activity;hexose transmembrane transport,False
 KPHS_t00790,-0.645355802754216,0.765250036616727,YP_005224379.1,GO:0051603(InterPro);GO:0005839(InterPro),proteolysis involved in protein catabolic process;proteasome core complex,False
-KPHS_t00350,0.285523233785957,0.769871025164744,YP_005224335.1,-,,False
-KPHS_t00620,-0.43078632059151,0.769871025164744,YP_005224362.1,-,,False
+KPHS_t00350,0.285523233785957,0.769871025164744,YP_005224335.1,,,False
+KPHS_t00620,-0.43078632059151,0.769871025164744,YP_005224362.1,,,False
 KPHS_t00670,0.683352165966131,0.769871025164744,YP_005224367.1,GO:0043565(InterPro);GO:0006355(InterPro);GO:0003700(InterPro),sequence-specific DNA binding;regulation of DNA-templated transcription;DNA-binding transcription factor activity,False
 KPHS_t00730,0.623890433881079,0.769871025164744,YP_005224373.1,GO:0042597(InterPro),periplasmic space,False
 KPHS_t00610,-0.211020262633843,0.789617407643321,YP_005224361.1,GO:0016887(InterPro);GO:0005524(InterPro),ATP hydrolysis activity;ATP binding,False
 KPHS_t00460,0.0852546643801637,0.849664618270933,YP_005224346.1,GO:0016020(InterPro);GO:0009401(InterPro),membrane;phosphoenolpyruvate-dependent sugar phosphotransferase system,False
-KPHS_t00500,0.233240781291414,0.849664618270933,YP_005224350.1,,-,False
-KPHS_t00480,-0.132307613890934,0.893216855895908,YP_005224348.1,,-,False
+KPHS_t00500,0.233240781291414,0.849664618270933,YP_005224350.1,,,False
+KPHS_t00480,-0.132307613890934,0.893216855895908,YP_005224348.1,,,False
 KPHS_t00560,0.0843769079065998,0.929442026493175,YP_005224356.1,GO:0016020(InterPro);GO:0005351(InterPro);GO:0008643(InterPro),membrane;carbohydrate:proton symporter activity;carbohydrate transport,False
 KPHS_t00600,-0.0750425026360899,0.931168389133966,YP_005224360.1,GO:0016020(InterPro);GO:0022857(InterPro);GO:0055085(InterPro),membrane;transmembrane transporter activity;transmembrane transport,False
-KPHS_t00390,0.0811391624736322,0.953713512552122,YP_005224339.1,-,,False
-KPHS_t00820,0.0151682217500865,0.993545694743063,YP_005224382.1,,-,False
-KPHS_t00630,0.0024051497921921,0.994866383887004,YP_005224363.1,-,,False
-KPHS_r00010,,,,,-,False
-KPHS_r00020,2.91044223682568,,,,-,False
-KPHS_r00050,,,,,-,False
-KPHS_r00070,,,,,-,False
-KPHS_r00080,-0.582410503127486,,,,-,False
-KPHS_r00090,-0.582410503127486,,,,-,False
-KPHS_r00100,,,,,-,False
-KPHS_r00110,-0.582410503127486,,,,-,False
-KPHS_r00120,,,,,-,False
-KPHS_r00130,,,,,-,False
-KPHS_r00140,,,,,-,False
-KPHS_r00150,3.14155170279626,,,,-,False
-KPHS_r00170,3.07392694898227,,,,-,False
-KPHS_r00180,-2.07158399129243,,,,-,False
-KPHS_r00190,,,,,-,False
-KPHS_r00210,-1.3682089884262,,,,-,False
-KPHS_r00220,-0.582410503127486,,,,-,False
-KPHS_r00230,-0.582410503127486,,,,-,False
-KPHS_r00240,2.42321147392718,,,,-,False
-KPHS_r00250,1.04549751054729,,,,-,False
+KPHS_t00390,0.0811391624736322,0.953713512552122,YP_005224339.1,,,False
+KPHS_t00820,0.0151682217500865,0.993545694743063,YP_005224382.1,,,False
+KPHS_t00630,0.0024051497921921,0.994866383887004,YP_005224363.1,,,False
+KPHS_r00010,,,YP_005224301.1,GO:0010181(InterPro),FMN binding,False
+KPHS_r00020,2.91044223682568,,YP_005224302.1,,,False
+KPHS_r00050,,,YP_005224305.1,,,False
+KPHS_r00070,,,YP_005224307.1,GO:0048029(InterPro);GO:0016853(InterPro);GO:0005996(InterPro),monosaccharide binding;isomerase activity;monosaccharide metabolic process,False
+KPHS_r00080,-0.582410503127486,,YP_005224308.1,GO:0016887(InterPro);GO:0005524(InterPro),ATP hydrolysis activity;ATP binding,False
+KPHS_r00090,-0.582410503127486,,YP_005224309.1,GO:0016020(InterPro);GO:0022857(InterPro);GO:0055085(InterPro),membrane;transmembrane transporter activity;transmembrane transport,False
+KPHS_r00100,,,YP_005224310.1,,,False
+KPHS_r00110,-0.582410503127486,,YP_005224311.1,,,False
+KPHS_r00120,,,YP_005224312.1,GO:0006355(InterPro);-;GO:0003677(InterPro),regulation of DNA-templated transcription;unknown;DNA binding,False
+KPHS_r00130,,,YP_005224313.1,GO:0055085(InterPro);GO:0022857(InterPro),transmembrane transport;transmembrane transporter activity,False
+KPHS_r00140,,,YP_005224314.1,GO:0003700(InterPro);GO:0006355(InterPro);-,DNA-binding transcription factor activity;regulation of DNA-templated transcription;unknown,False
+KPHS_r00150,3.14155170279626,,YP_005224315.1,GO:0006777(InterPro);GO:0005525(InterPro),Mo-molybdopterin cofactor biosynthetic process;GTP binding,False
+KPHS_r00170,3.07392694898227,,YP_005224317.1,,,False
+KPHS_r00180,-2.07158399129243,,YP_005224318.1,,,False
+KPHS_r00190,,,YP_005224319.1,GO:0016491(InterPro),oxidoreductase activity,False
+KPHS_r00210,-1.3682089884262,,YP_005224321.1,GO:0003676(InterPro);GO:0003887(InterPro);GO:0003824(InterPro);GO:0006260(InterPro);GO:0003677(InterPro);GO:0008408(InterPro);GO:0006139(InterPro),nucleic acid binding;DNA-directed DNA polymerase activity;catalytic activity;DNA replication;DNA binding;3'-5' exonuclease activity;nucleobase-containing compound metabolic process,False
+KPHS_r00220,-0.582410503127486,,YP_005224322.1,GO:0005525(InterPro),GTP binding,False
+KPHS_r00230,-0.582410503127486,,YP_005224323.1,GO:0005096(InterPro),GTPase activator activity,False
+KPHS_r00240,2.42321147392718,,YP_005224324.1,GO:0051536(InterPro);-;GO:0003824(InterPro),iron-sulfur cluster binding;unknown;catalytic activity,False
+KPHS_r00250,1.04549751054729,,YP_005224325.1,GO:0006355(InterPro);GO:0043565(InterPro);GO:0005524(InterPro);GO:0000160(InterPro);GO:0008134(InterPro),regulation of DNA-templated transcription;sequence-specific DNA binding;ATP binding;phosphorelay signal transduction system;transcription factor binding,False
 KPHS_t00220,,,YP_005224322.1,GO:0005525(InterPro),GTP binding,False
 KPHS_t00230,-0.582410503127486,,YP_005224323.1,GO:0005096(InterPro),GTPase activator activity,False
 KPHS_t00270,,,YP_005224327.1,GO:0006807(InterPro);GO:0006542(InterPro);GO:0004356(InterPro),unknown;glutamine biosynthetic process;glutamine synthetase activity,False
 KPHS_t00370,1.73827821920565,,YP_005224337.1,GO:0005737(InterPro),cytoplasm,False
 KPHS_t00380,,,YP_005224338.1,GO:0016020(InterPro);GO:0009055(InterPro),membrane;electron transfer activity,False
-KPHS_t00490,0.379376296763129,,YP_005224349.1,-,,False
+KPHS_t00490,0.379376296763129,,YP_005224349.1,,,False
 KPHS_t00580,-0.582410503127486,,YP_005224358.1,GO:0046872(InterPro);GO:0016491(InterPro),metal ion binding;oxidoreductase activity,False
 KPHS_t00660,0.120850377267387,,YP_005224366.1,GO:0043565(InterPro);GO:0006355(InterPro);GO:0003700(InterPro),sequence-specific DNA binding;regulation of DNA-templated transcription;DNA-binding transcription factor activity,False
 KPHS_t00720,0.379377438286198,,YP_005224372.1,GO:0006355(InterPro);GO:0000160(InterPro);GO:0003677(InterPro),regulation of DNA-templated transcription;phosphorelay signal transduction system;DNA binding,False
-KPHS_t00740,1.75076615213045,,YP_005224374.1,GO:0016020(InterPro);GO:0055085(InterPro);GO:0008324(InterPro);GO:0006812(InterPro);-,membrane;transmembrane transport;monoatomic cation transmembrane transporter activity;monoatomic cation transport,False
+KPHS_t00740,1.75076615213045,,YP_005224374.1,GO:0016020(InterPro);GO:0055085(InterPro);GO:0008324(InterPro);GO:0006812(InterPro);-,membrane;transmembrane transport;monoatomic cation transmembrane transporter activity;monoatomic cation transport;unknown,False
 KPHS_t00770,-1.3682089884262,,YP_005224377.1,GO:0016020(InterPro);GO:0016765(InterPro),"membrane;transferase activity, transferring alkyl or aryl (other than methyl) groups",False
 KPHS_t00800,3.23792258777101,,YP_005224380.1,GO:0042834(InterPro),peptidoglycan binding,False
