@@ -75,7 +75,7 @@ The PCA plot shows clear separation between the two groups, with tight clusterin
 
 Using **DESeq2**, we identified differentially expressed genes (DEGs) between KPN16 and ATCC13883. Genes with an adjusted *p*-value < 0.05 and |log₂ fold change| > 1 were considered significant.
 
-![Volcano Plot](./08a2dbbf-3a60-4fcb-869f-185a1b0f6d87.png)
+![Volcano Plot](./results/annotated_volcano_with_thresholds.png)
 
 The volcano plot illustrates these DEGs, annotated with selected **Gene Ontology (GO)** terms. Key findings include:
 
