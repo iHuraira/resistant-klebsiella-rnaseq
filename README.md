@@ -1,44 +1,54 @@
-# Klebsiella pneumoniae RNA-seq Pipeline  
-*Antibiotic-resistance transcriptomics (GSE229867)*
+# 🧬 Snakemake Pipeline for RNA-Seq Analysis of *Klebsiella pneumoniae* Antibiotic Resistance
 
-## 1. Project Overview
-The increasing antibiotic resistance of **_Klebsiella pneumoniae_** poses a serious threat to global public health.  
-To investigate resistance mechanisms, we re-analysed the RNA-seq data from GEO Series **GSE229867**, comparing the clinical mutant strain **KPN16** with the reference strain **ATCC13883** (three biological replicates each).
+## Introduction
 
-> **Original study**  
-> Liu Y *et al.* 2025. *Transcriptomic analysis reveals pathways underlying the multi-antibiotic resistance of Klebsiella pneumoniae.* **IET Syst Biol** 19(1): e12112.  
+This repository contains a Snakemake pipeline designed for RNA-Seq analysis of *Klebsiella pneumoniae* isolates to study mechanisms of antibiotic resistance. The analysis is based on the publicly available dataset [**GSE229867**](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE229867), which profiles gene expression in two bacterial strains:
 
-### Experimental design (from GEO)
-- **Platform:** Illumina NovaSeq 6000 (paired-end 150 bp)  
-- **BioProject:** PRJNA956495  
-- **Samples:**  
-  | Condition | GEO IDs | Replicates |
-  |-----------|---------|------------|
-  | ATCC13883 | GSM7179288-90 | 3 |
-  | KPN16     | GSM7179288-90 | 3 |
+* **ATCC13883** – reference strain
+* **KPN16** – multidrug-resistant clinical isolate
 
-Each isolate was cultured to OD<sub>600</sub>=0.05, total RNA extracted, rRNA removed, libraries built (370–420 bp inserts) and sequenced on NovaSeq.
+The original study, published in *IET Systems Biology* (Liu et al., 2025), revealed that resistance in KPN16 may be associated with increased butanoate metabolism and lipopolysaccharide biosynthesis, alongside reduced transmembrane transport activity.
 
-## 2. Pipeline Summary
-Implemented in **Snakemake** (`Snakefile`) with modular rules:
+The pipeline enables automated, reproducible processing of RNA-Seq data including quality control, alignment, quantification, and differential expression analysis.
 
-| Order | Rule / Tool | Purpose |
-|-------|-------------|---------|
-| 1 | `prefetch_sra` (– NCBI SRA) | Fetch .sra files |
-| 2 | `convert_to_fastq` (`fasterq-dump`) | Convert to paired-end FASTQ |
-| 3 | `trim_reads` (**Trimmomatic**) | Adapter & low-quality trimming |
-| 4 | `qc_prepost` (**FastQC**, **MultiQC**) | Pre- & post-trim quality reports |
-| 5 | `check_rRNA_content` (**BBMap**) | rRNA contamination screening |
-| 6 | `align_reads` (**STAR**) | Genome alignment to GCA_000240185.2 |
-| 7 | `check_strandedness` (**RSeQC**) | Library strand orientation |
-| 8 | `count_reads` (**featureCounts**) | Gene-level read counts |
-| 9 | `differential_expression` (**DESeq2**) | Identify DEGs (|log₂FC| ≥ 1, FDR ≤ 0.001) |
-| 10 | `interproscan_annotations` (**InterProScan 5**) | Assign GO terms |
+Great! Here's a well-formatted **Pipeline Overview** section for your README that clearly describes each step while maintaining clarity and conciseness:
 
+---
 
-## 3. References
+## 🧪 Pipeline Overview
 
-1. Liu Y **et al.** (2025) *IET Syst Biol* 19(1): e12112.
-2. Dobin A **et al.** 2013 STAR: ultrafast RNA-seq aligner. *Bioinformatics*.
-3. Love MI, Huber W, Anders S. 2014. **DESeq2**. *Genome Biology*.
-4. Jones P **et al.** 2014. **InterProScan 5**. *Nucleic Acids Res*.
+This Snakemake pipeline automates the analysis of RNA-Seq data from *Klebsiella pneumoniae*, covering raw data retrieval to differential expression analysis. The steps are modular and reproducible, suitable for scaling and customization.
+
+### Workflow Steps:
+
+1. **prefetch\_sra**
+   Downloads raw sequencing data from the NCBI Sequence Read Archive (SRA) using `prefetch`.
+
+2. **convert\_to\_fastq**
+   Converts `.sra` files into `.fastq` format using `fasterq-dump`.
+
+3. **trim\_reads**
+   Trims adapter sequences and low-quality bases using **Trimmomatic**.
+
+4. **qc\_prepost**
+   Performs quality control on raw and trimmed reads using **FastQC**, then compiles reports with **MultiQC**.
+
+5. **check\_rRNA\_content**
+   Estimates ribosomal RNA contamination levels using **BBMap** (`bbduk.sh`).
+
+6. **align\_reads**
+   Aligns reads to the reference genome using **STAR** aligner in 2-pass mode for improved accuracy.
+
+7. **check\_strandedness**
+   Assesses library strandedness using **RSeQC** tools (e.g., `infer_experiment.py`).
+
+8. **count\_reads**
+   Counts aligned reads at the gene level using **featureCounts**.
+
+9. **differential\_expression**
+   Identifies differentially expressed genes between resistant and non-resistant strains using **DESeq2** or **edgeR** in R.
+
+10. **Gene Set Enrichment Analysis (GSEA)** *(performed independently)*
+    Functional enrichment analysis was conducted using **InterProScan**, although it is not part of the automated pipeline.
+
+---
