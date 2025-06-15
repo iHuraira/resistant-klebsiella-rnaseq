@@ -201,5 +201,8 @@ results/*
 # Explicitly keep only the following folders
 !results/deseq2/
 !results/interproscan_output.tsv
+!results/annotated_volcano_with_thresholds.png
+!results/dge_annotated.csv
+!results/interproscan_output.tsv
 
 resources/star_index/
