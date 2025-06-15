@@ -65,7 +65,7 @@ To explore the transcriptional differences associated with antibiotic resistance
 
 PCA was performed on normalized gene expression counts to visualize sample clustering and variance structure. The first two principal components explained **71%** and **11%** of the total variance, respectively.
 
-![PCA Plot](./78710163-ddc7-4704-8c16-1dc061b8b5c5.png)
+![PCA Plot](./results/pca_plot.pdf)
 
 The PCA plot shows clear separation between the two groups, with tight clustering of biological replicates. This indicates strong and consistent transcriptional differences between the resistant and non-resistant strains.
 
